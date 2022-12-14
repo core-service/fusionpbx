@@ -1,9 +1,9 @@
-DIYPBX Changes
+core-service Changes
 --------------------------------------
 The configrtaion remains the same as the Fusionpbx Git except for some changes to match our tutorials
 
 Made sure NFTables is Uninstalled and IPTables is installed
-Pointed the fusionpbx clone location to the DIYPBX git server
+Pointed the fusionpbx clone location to the core-service git server
 Added our own filewall script
 
 What is [FusionPBX](https://www.fusionpbx.com/)?
@@ -42,7 +42,7 @@ How to Install FusionPBX
 
 Debian Install
 ```
-wget -O - https://raw.githubusercontent.com/diypbx/fusionpbx-install.sh/master/debian/pre-install.sh | sh;
+wget -O - https://raw.githubusercontent.com/core-service/fusionpbx-install.sh/master/debian/pre-install.sh | sh;
 cd /usr/src/fusionpbx-install.sh/debian && ./install.sh
 ```
 
